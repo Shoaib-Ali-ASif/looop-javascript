@@ -2,6 +2,8 @@
 
 
 
+
+
 // Reverse the array by using a loop.
 
 
@@ -21,8 +23,19 @@
 
 
 // Make an array to store the name of 5 students and iterate with for and foreach loop.
-
+let students = ["Ali", "Ahmad", "Hassan", "Kaleem" , "farhan"];
+for(let i = 0; i < students.length; i++) 
+{
+    console.log(students[i]); 
+}
+    
 
 
 
 // Make an object to store the information of a student and iterate with a for-in loop.
+
+
+let studentInfo= ["Ali", "Ahmad", "Hassan", "Kaleem" , "farhan"];
+ for(let element in studentInfo) { 
+        console.log(studentInfo[element]); 
+    }
