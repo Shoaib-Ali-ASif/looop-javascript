@@ -5,7 +5,7 @@ let sum = 0;
 for (let i = 0; i < Arr.length; i++) {
   sum += Arr[i];
 }
-console.log(sum);
+console.log("Sum:", sum);
 
 // Reverse the array by using a loop.
 
