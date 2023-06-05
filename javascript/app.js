@@ -10,8 +10,9 @@ console.log(sum);
 // Reverse the array by using a loop.
 
 let num1 = [1 , 2 , 3 , 4 , 5];
-let Reverse =[num1];
+let Reverse = [];
 for ( let i = num1.length - 1; i >= 0; i--){
+    Reverse.push(num1[i]);
 }
 console.log(Reverse);
 
@@ -52,9 +53,9 @@ for (let i = 0; i < students.length; i++) {
   console.log(students[i]);
 }
 
-// Make an object to store the information of a student and iterate with a for-in loop.
+// // Make an object to store the information of a student and iterate with a for-in loop.
 
-let studentInfo = ["Ali", "Ahmad", "Hassan", "Kaleem", "farhan"];
-for (let element in studentInfo) {
-  console.log(studentInfo[element]);
-}
+// let studentInfo = ["Ali", "Ahmad", "Hassan", "Kaleem", "farhan"];
+// for (let element in studentInfo) {
+//   console.log(studentInfo[element]);
+// }
