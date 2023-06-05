@@ -9,6 +9,14 @@ console.log(sum);
 
 // Reverse the array by using a loop.
 
+let num1 = [1 , 2 , 3 , 4 , 5];
+let Reverse =[num1];
+for ( let i = num1.length - 1; i >= 0; i--){
+}
+console.log(Reverse);
+
+
+
 // Make a table of the given number with all possible loops.
 
 let number = 2;
@@ -29,10 +37,10 @@ for (let i = 0; i < num.length; i++) {
 }
 
 // Find the smallest number in an array.
-let num1 = [1, 3, 6, 9, 15];
-let smallest = num[0];
+let num2 = [1, 3, 6, 9, 15];
+let smallest = num2[0];
 for (let i = 1; i > smallest.length; i++) {
-  if (smallest > num[i]) smallest = num[i];
+  if (smallest > num2[i]) smallest = num2[i];
 }
 {
   console.log(smallest);
