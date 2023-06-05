@@ -53,9 +53,16 @@ for (let i = 0; i < students.length; i++) {
   console.log(students[i]);
 }
 
-// // Make an object to store the information of a student and iterate with a for-in loop.
+// Make an object to store the information of a student and iterate with a for-in loop.
 
-// let studentInfo = ["Ali", "Ahmad", "Hassan", "Kaleem", "farhan"];
-// for (let element in studentInfo) {
-//   console.log(studentInfo[element]);
-// }
+let student = {
+    name: 'ali',
+    age: 18,
+    subjects: ['Math', 'Science', 'English']
+  };
+  
+  for (let properity in student) {
+    console.log(properity + ': ' + student[properity]);
+  }
+
+//   (: = concatenate)
